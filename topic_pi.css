@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav> ul {
+    list-style-type: none;
+    margin: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 100%;
+}
+
+  body{
+    background-image: url("bg_starwars8.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  li a {
+    display: block;
+    padding: 8px;
+    color:coral;
+}
+    a:visited, a{
+    color: white;
+}
+  a:hover{
+    color:coral;
+}
+
+  h1{
+    color:white;
+    font-family: 'Fira Mono', monospace;
+    padding-top: 5%;
+    font-size: 3em;
+    padding-left: 50px;
+    width: 65%;
+    animation: color-change 5s infinite;
+}
+
+img{
+  width: 35vw;
+  height: 45vh;
+  padding-top: 50px;
+  padding-left: 50px;
+  border-radius: 25px;
+  }
+  main{
+  width: 50%;
+  }
+p,h2{
+  padding-left: 50px;
+  color:rgb(255, 255, 255);
+  font-family: 'Fira Mono', monospace;
+  }
+  
+  hr{
+    color: rgb(255, 255, 255);
+  }
+  iframe{
+    padding-left: 50px;
+  }
+  .poster{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    border-radius: 0px;
+
+  }

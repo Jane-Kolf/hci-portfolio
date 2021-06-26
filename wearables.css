@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav> ul {
+    list-style-type: none;
+    margin: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 100%;
+}
+
+  body{
+      background-image: url("bg-walle5.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top right;
+}
+  li a {
+    display: block;
+    padding: 8px;
+    color: rgb(25, 206, 188);
+}
+    a:visited, a{
+      color: rgb(25, 206, 188);
+}
+  a:hover{
+      color:coral;
+}
+
+  h1{
+    color:rgb(112, 87, 6);
+    font-family: 'Fira Mono', monospace;
+    padding-top: 5%;
+    font-size: 3em;
+    padding-left: 50px;
+    width: 65%;
+    animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% { color:white; }
+  50% {color: rgb(72, 231, 215) }
+  100% { color: white; }
+}
+ p{
+    color:black;
+    font-family: 'Fira Mono', monospace;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 50%;
+ }
+ h2{
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Fira Mono', monospace;
+  color: white;
+}
+.button{
+  background-color: #4cacaf;
+  border: none;
+  border-radius: 25px;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
+  cursor: pointer;
+  box-shadow: black 2px 2px 5px;
+}
+div{
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.button:hover{
+  background-color: black;
+}

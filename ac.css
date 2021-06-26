@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav> ul {
+    list-style-type: none;
+    margin: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 100%;
+}
+
+  body{
+      background-image: url("bg-walle2.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top right;
+}
+  li a {
+    display: block;
+    padding: 8px;
+    color: rgb(25, 206, 188);
+}
+    a:visited, a{
+      color: rgb(25, 206, 188);
+}
+  a:hover{
+      color:coral;
+}
+
+  h1{
+    color:rgb(112, 87, 6);
+    font-family: 'Fira Mono', monospace;
+    padding-top: 5%;
+    font-size: 3em;
+    padding-left: 50px;
+    width: 65%;
+    animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% { color:white; }
+  50% {color:rgb(201, 26, 26); }
+  100% { color: white; }
+}
+ p{
+    color:black;
+    font-family: 'Fira Mono', monospace;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 50%;
+ }
+h2{
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Fira Mono', monospace;
+}
+a>div>h2{
+  color: rgb(20, 20, 20);
+}
+ .topic{
+    width: 20vw;
+    height: 30vh;
+    background-image: url('bg_starwars5.jpg');
+    background-position: top left;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    margin: 2%;
+    margin-left: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black;
+    float: left;
+ }
+ .button{
+  background-color: #422e26;
+  border: none;
+  border-radius: 25px;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
+  cursor: pointer;
+  box-shadow: black 2px 2px 5px;
+}
+div{
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.button:hover{
+  background-color: black;
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav> ul {
+    list-style-type: none;
+    margin: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 100%;
+}
+
+body{
+  background-image: url("bg_starwars4.jpg");
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+  li a {
+    display: block;
+    padding: 8px;
+    color:coral;
+}
+    a:visited, a{
+    color: rgb(25, 206, 188);
+}
+  a:hover{
+    color:coral;
+}
+
+  h1{
+    color:coral;
+    font-family: 'Fira Mono', monospace;
+    padding-top: 5%;
+    font-size: 3em;
+    padding-left: 50px;
+    width: 65%;
+    animation: color-change 5s infinite;
+}
+
+img{
+width: 45vw;
+height: 50vh;
+padding-top: 50px;
+}
+
+video{
+padding-top: 50px;
+}
+#screenshots{
+
+font-family: 'Fira Mono', monospace;
+width: 50%;
+padding-left: 50px;
+}
+h4{
+
+  font-family: 'Fira Mono', monospace;
+  width: 50%;
+  padding-left: 50px;
+}

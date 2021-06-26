@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>HC Portfolio</title>
+    <link rel="stylesheet" href="workshop_ARVR.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="ar-vr.html"><li>AR/VR</li></a>
+                <a href="wearables.html"><li>Wearables</li></a>
+                <a href="ac.html"><li>Artificial Creatures</li></a>
+                <a href="pi.html"><li>Playful Interaction</li></a>
+                <a href="arduino.html"><li>Arduino</li></a>
+                <a href="arduino.html"><li>Computer Vision</li></a>
+                <a href="cv.html"><li>Guest Lecture</li></a>
+                <a href="gl.html"><li>Guest Lecture</li></a>
+                <a href="labs.html"><li>Labs Weeks</li></a>
+            </ul>
+        </nav>
+        <body>
+        <main>
+            <h1>
+                Unreal Engine Assignment Advance
+            </h1>
+            <h4>
+                Het is momenteel de belangrijkste game-engine en is gebruikt om veel games en simulaties te maken.
+                Na het maken van de introductie opdracht "UnReal Engine Assignment" ben ik verder gegaan met de advance opdracht.
+                Voor de Workshop opdracht moest ik een tutorial op <a href= "https://www.raywenderlich.com/663-unreal-engine-4-blueprints-tutorial"target="_blank">deze website </a>
+                volgen step by step. Dit is hoe het is gegaan. Met Unreal Engine heb ik een kleine game gemaakt.
+                <br><br>
+                In deze Unreal Engine tutorial leer ik hoe je met "blueprints" een spelerpersonage maakt, inputs in te stellen en een item te laten verdwijnen wanneer de speler het aanraakt.
+                Blueprints is het visuele scriptingsysteem in Unreal Engine en is een snelle manier om te beginnen met het prototypen van een game. 
+                In plaats van regel voor regel code te schrijven, doe je alles visueel met knooppunten te slepen en neerzetten. Via de interface maak je verbidingen met vershillende draden die hun eingen instellingen en eigenschappen hebben. 
+            </h4>
+            <div id="screenshots">
+                <div>
+                    <img src="Unreal_advance1.PNG">
+                    <p>1. Hier open ik mijn project in UnReal Engine. Ik zit nu in de game omgeving.</p>
+                </div>
+                <div>
+                    <img src="Unreal_advance6.PNG">
+                    <p>2. Er wordt een camera geplaatst zodat ik een goed beeld heb om de game omgeving.</p>
+
+                    <img src="Unreal_advance2.PNG">
+                    <p>3. Ik maak nu de eerste stappen naar het maken van een pion/ speler. De rode kubus moet de speler voorstellen.
+                        Daarbij moet ik ook de camera angle/ viewpoint instellen.
+                    </p>
+
+                    <img src="Unreal_advance8.PNG">
+                    <p>4. Nu zet ik de speler in de game (omgeving).</p>
+
+                    <img src="Unreal_advance9.PNG">
+                    <p> Unreal heeft 2 manieren, ik gebruik Axis Mapping.Hiermee laat ik mijn speler bewegen met de toetsen W,S,A en D.</p>
+
+                    <img src="Unreal_advance5.PNG">
+                    <p>5.Het enige wat nog gedaan moet worden is de verschillende acties en reacties toevoegen aan de games zodat je de speler kan bewegen.
+                        Dit is gedaan door "inputs" met elkaar te verbinden. Onderaan is het resultaat
+                    </p>
+
+                    <video width="1024" height="576" controls>
+                        <source src="BananaCollector - Unreal Editor_collision.mp4" type="video/mp4">
+                    </video>
+                    <p>Zoals je eerder hebt gezien ga je door alles heen, dit zou niet moeten gebeuren daarom wordt er iets toegevoegd genaamd "collision". 
+                        Met collision kom je tegen een ander object aan net als een botsing
+                    </p>
+                    
+                    <video width="1024" height="576" controls>
+                        <source src="BananaCollector - Unreal Editor_no-collision.mp4" type="video/mp4">
+                    </video>
+                    <p>Door een kleine aanpassing met de speler en de "sweep" input is het probleem opgelost
+                    </p>
+
+                    <img src="Unreal_advance11.PNG">
+                    <p>6. Om het spel compleet te maken moeten er nog een aantal items toegevoegd worden waarop de speler reageerd.
+                        Dit heet "collision responses". In totaal zijn er 3: Ignore, Overlap en Block. In het spel gebruik ik alleen overlap.
+                    </p>
+
+                    <img src="Unreal_advance10.PNG">
+                    <p>7. Als laatste stap moeten de items nog in de game omgeving geplaatst worden.<br>
+                        Hier onder is het eindresultaat.
+                    </p>
+
+                    <video width="1024" height="576" controls>
+                        <source src="BananaCollector - Unreal Editor_compleet.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+           
+        </main>
+    </body>
+    <footer>
+    </footer>
+</html>

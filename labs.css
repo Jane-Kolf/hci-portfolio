@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav> ul {
+    list-style-type: none;
+    margin: 10px;
+    list-style-type: none;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    margin: 10px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 100%;
+}
+
+  body{
+      background-image: url("bg-walle8.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-attachment: fixed;
+}
+  li a {
+    display: block;
+    padding: 8px;
+    color: rgb(25, 206, 188);
+}
+    a:visited, a{
+      color: rgb(25, 206, 188);
+}
+  a:hover{
+      color:coral;
+}
+
+  h1{
+    color:rgb(112, 87, 6);
+    font-family: 'Fira Mono', monospace;
+    padding-top: 5%;
+    font-size: 3em;
+    padding-left: 50px;
+    width: 65%;
+    animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% { color:blueviolet; }
+  50% { color: rgb(116, 216, 112); }
+  100% { color: blueviolet; }
+}
+ p{
+    color:black;
+    font-family: 'Fira Mono', monospace;
+    padding-left: 50px;
+    padding-top: 25px;
+    width: 50%;
+ }
+h2,h4{
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-family: 'Fira Mono', monospace;
+}
+h3{
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-family: 'Fira Mono', monospace;
+  color: blueviolet;
+  font-size: 2em;
+}
+
+img{
+  width: 45vw;
+  height: 55vh;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-family: 'Fira Mono', monospace;
+}
+
+.gelly{
+  width: 45vw;
+  height: 25vh;
+  padding-left: 50px;
+  font-family: 'Fira Mono', monospace;
+}
+ hr{
+   width: 50%;
+   margin-left: 50px;
+ }
+ iframe{
+  padding-left: 50px;
+ }
